@@ -1,0 +1,76 @@
+
+/* ----- FORMULARIO CONTACTO ----*/
+
+.formulario{
+    text-align: center;
+    background-image: url("../img/espirometria.jpg");
+    width: 100% ;
+    height: calc(100vh - 80px);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    izquierda{
+        margin-right: 20px;
+    }
+    h2{
+        font-family: 'Mukta', sans-serif;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        margin: 10px;
+    }
+    form{
+        font-family: 'Mukta', sans-serif;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        width: 480px;
+        margin: auto;
+        background: #0d6dfd79;
+        padding: 10px 10px;
+        border-radius: 15px;
+    }
+    div{
+        iframe{
+            display: block;
+        }
+    }
+    label{
+        color:white;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        font-size: 17px;
+        border: none;
+        font-family: 'Mukta', sans-serif;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        font-size: 17px;
+        border: none;
+        font-family: 'Mukta', sans-serif;
+    }
+    textarea{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        font-size: 17px;
+        border: none;
+        font-family: 'Mukta', sans-serif;
+    }
+    #button{
+        font-family: 'Mukta', sans-serif;
+        background: #0d6dfdb5;
+        color: white;
+        border: 2px solid white;
+        padding: 5px;
+        &button:hover{
+            cursor: pointer;
+            font-weight: bold;
+            }
+    }
+}

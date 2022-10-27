@@ -1,0 +1,67 @@
+//!LISTAS
+$colores:
+red,
+blue,
+tomato;
+
+$font-size:
+12px,
+16px,
+20px;
+
+
+//!MAPAS
+$boton:(
+//KEY - VALUE  llave y valor.
+bg-boton: black,
+borde: 2px solid tomato,
+color-texto: white,
+);
+
+.boton{
+    background-color: map-get($boton, bg-boton);
+    border: map-get($boton, borde);
+};
+
+//!EXTENDS
+// el % se llama PLACEHOLDER
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeriaaaa {
+    background-color: aqua;
+    border: 1px solid tomato;
+    @extend %flex;
+}
+
+.productossssss{
+    background-color: red;
+    @extend %flex;
+}
+
+//!MIXINS
+@mixin flex ($flex, $justfy, $align){
+    display: $flex;
+    justify-content:$justfy;
+    align-items:$align;
+}
+
+
+
+.contenedorrrr{
+    @include flex ()
+}
+
+//! CONDICIONALES
+//reglas para ver si se implementa una accion
+
+// operasdores  ==  != diferente.   <  >  >=    <=  
+
+@mixin modos ($darkmode) {
+    @if                        
+    }
+

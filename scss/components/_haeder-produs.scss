@@ -1,0 +1,22 @@
+.headerProdus{  
+    background-image: url("../img/medico_recomienda1.jpg");
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    div{
+        h2{
+            font-family: 'Mukta', sans-serif;
+            font-size: 50px;
+            text-align: center;
+            color: #0d6efd;  
+        }
+        p{
+            font-family: 'Mukta', sans-serif;
+            font-size:35px;
+            text-align: center;
+            color: #0d6efd;
+        }
+    }
+}

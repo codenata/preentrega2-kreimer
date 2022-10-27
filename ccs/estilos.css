@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.grid-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px auto 150px;
+  gap: 0px 0px;
+  grid-template-areas: "header header" "main main" "footer footer"; }
+
+/* ----- PAGINA> ENVIOS ----*/
+.envios {
+  background-image: url("../img/ambulancia.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 80px); }
+  .envios div h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .envios div p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white; }
+  .envios div a {
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    color: #0d6efd;
+    text-align: center; }
+
+.flotante {
+  position: fixed;
+  z-index: 100;
+  right: 5%;
+  bottom: 20px;
+  background-color: #fefbd8;
+  text-align: center;
+  font-size: 18px;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75); }
+  .flotante div {
+    margin-top: 20px; }
+  .flotante h5 {
+    font-size: 18px; }
+
+/* ----- FORMULARIO CONTACTO ----*/
+.formulario {
+  text-align: center;
+  background-image: url("../img/espirometria.jpg");
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; }
+  .formulario izquierda {
+    margin-right: 20px; }
+  .formulario h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin: 10px; }
+  .formulario form {
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    width: 480px;
+    margin: auto;
+    background: #0d6dfd79;
+    padding: 10px 10px;
+    border-radius: 15px; }
+  .formulario div iframe {
+    display: block; }
+  .formulario label {
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    font-family: 'Mukta', sans-serif; }
+  .formulario input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    font-family: 'Mukta', sans-serif; }
+  .formulario textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    font-family: 'Mukta', sans-serif; }
+  .formulario #button {
+    font-family: 'Mukta', sans-serif;
+    background: #0d6dfdb5;
+    color: white;
+    border: 2px solid white;
+    padding: 5px; }
+    .formulario #buttonbutton:hover {
+      cursor: pointer;
+      font-weight: bold; }
+
+.grid-galeria {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px; }
+  .grid-galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.img-4 {
+  grid-column: span 2; }
+
+.img-6 {
+  grid-row: span 2; }
+
+.img-8 {
+  grid-row: span 2; }
+
+.grid-item {
+  position: relative; }
+  .grid-item h3 {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 30px;
+    padding: 5px; }
+
+.headerProdus {
+  background-image: url("../img/medico_recomienda1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; }
+  .headerProdus div h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #0d6efd; }
+  .headerProdus div p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #0d6efd; }
+
+main {
+  grid-area: main; }
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.222)), url("../img/espirometria.jpg");
+  text-align: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; }
+  .hero div h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin: 40px; }
+  .hero div p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 40px; }
+  .hero div a {
+    background-color: #0d6dfdb3;
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 15px; }
+
+/* ----- PAGINA EL-OXICLUB ----*/
+.oxiclub {
+  background-image: url("../img/gente-parque.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; }
+  .oxiclub div h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 20px; }
+  .oxiclub div p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin: 20px; }
+  .oxiclub video {
+    display: inline-block;
+    align-items: center;
+    justify-content: center; }
+  .oxiclub iframe {
+    margin: 20px; }
+
+/* ----- PALABRAEXPERTO HOME ------*/
+.palabraExperto {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .palabraExperto div {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 450px;
+    width: 350px;
+    border-radius: 10px;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition: 2s; }
+    .palabraExperto divdiv:hover {
+      transform: scale(1.1); }
+    .palabraExperto div img {
+      width: 250px;
+      height: 250px;
+      border-radius: 120px; }
+    .palabraExperto div div p {
+      margin-bottom: 5px; }
+  .palabraExperto p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #0d6efd; }
+  .palabraExperto h3 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #0d6efd; }
+  .palabraExperto h4 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #0d6efd; }
+
+/*---FOOTER----*/
+footer {
+  background-color: #0d6efd;
+  margin-top: 20px;
+  padding: 20px 0 5px 0;
+  width: 100%;
+  grid-area: footer; }
+  footer p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    z-index: 100; }
+  footer img {
+    width: 30px;
+    height: 30px;
+    margin: 10px; }
+  footer div {
+    display: flex;
+    justify-content: center;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition: 1s; }
+    footer divdiv:hover {
+      transform: scale(1.1); }
+
+header {
+  background-color: #0d6efd;
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 100;
+  width: 100%;
+  align-items: center;
+  grid-area: header; }
+  header img {
+    height: 50px;
+    height: 34px;
+    margin: 5px; }
+  header h1 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    display: inline-block; }
+  header nav ul li {
+    display: inline-block; }
+    header nav ul li a {
+      font-family: 'Mukta', sans-serif;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      margin: 10px; }
+
+/* MEDIA QUERY */
+@media screen and (max-width: 950px) {
+  .grid-galeria {
+    grid-template-columns: repeat 2, 1fr;
+    grid-auto-rows: 220px; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; }
+  .img-9 {
+    grid-column: span 2; } }
+
+@media screen and (max-width: 600px) {
+  .flotante {
+    display: none; } }
+
+@media screen and (max-width: 450px) {
+  .grid-galeria {
+    grid-template-columns: 1fr; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; }
+  header {
+    flex-direction: column; }
+  header nav {
+    margin: 10px 0 10px 0; } }

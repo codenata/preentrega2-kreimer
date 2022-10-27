@@ -1,0 +1,32 @@
+/* ----- PAGINA EL-OXICLUB ----*/
+
+.oxiclub{  
+    background-image: url("../img/gente-parque.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    div{
+        h2{
+            font-family: 'Mukta', sans-serif;
+            font-size: 50px;
+            color: white;  
+            margin: 20px;
+        }
+        p{
+            font-family: 'Mukta', sans-serif;
+            font-size:35px;
+            color: white;
+            margin: 20px;
+        }
+    }
+    video{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+    iframe{
+        margin: 20px;
+    }
+}

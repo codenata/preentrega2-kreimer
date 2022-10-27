@@ -1,0 +1,46 @@
+main{
+    grid-area: main;
+}
+
+.hero{  
+    background: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.222)), url("../img/espirometria.jpg");
+    text-align: center;
+    width: 100% ;
+    height: calc(100vh - 80px);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    div{
+        h2{
+            font-family: 'Mukta', sans-serif;
+            font-size: 35px;
+            color: white;
+            margin: 40px;
+        }
+        p{
+            font-family: 'Mukta', sans-serif;
+            font-size:20px;
+            font-weight:bold;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.200);
+            margin: 40px;
+        }
+        a{
+            background-color: #0d6dfdb3;
+            font-family: 'Mukta', sans-serif;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight:bold;
+            padding: 10px;
+            color:white;
+            text-align: center;
+            border: 1px solid white;
+            box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
+            border-radius: 15px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto 150px;
+    gap: 0px 0px;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
