@@ -1,3 +1,4 @@
+
 .headerProdus{  
     background-image: url("../img/medico_recomienda1.jpg");
     background-position: center;
@@ -5,18 +6,19 @@
     background-attachment: fixed;
     display: flex;
     justify-content: center;
+    
     div{
         h2{
             font-family: 'Mukta', sans-serif;
-            font-size: 50px;
+            font-size: $font-grande;
             text-align: center;
-            color: #0d6efd;  
+            color: $color-azul-fuerte;  
         }
         p{
             font-family: 'Mukta', sans-serif;
-            font-size:35px;
+            font-size: $font-chica;
             text-align: center;
-            color: #0d6efd;
+            color: $color-azul-fuerte;
         }
     }
 }

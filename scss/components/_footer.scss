@@ -1,7 +1,8 @@
 /*---FOOTER----*/
+@import "../base/variables";
 
 footer{
-    background-color: #0d6efd;
+    background-color:  $color-azul-fuerte;
     margin-top: 20px;
     padding: 20px 0 5px 0;
     width: 100%;
@@ -13,19 +14,20 @@ footer{
         text-align: center;
         z-index: 100;
     }
-    img{
-        width: 30px;
-        height: 30px;
-        margin: 10px;
-    }
+
     div{
         display: flex;
         justify-content:center;
         transition-duration: 2s;
         transition-delay: 0s;
         transition: 1s;
-        &div:hover{
+        & div:hover{
             transform: scale(1.1);
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            margin: 10px;
         }
     }
 }

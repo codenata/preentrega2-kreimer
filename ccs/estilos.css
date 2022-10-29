@@ -44,7 +44,7 @@
   bottom: 20px;
   background-color: #fefbd8;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   width: 110px;
   height: 110px;
   border-radius: 100%;
@@ -54,7 +54,7 @@
   .flotante div {
     margin-top: 20px; }
   .flotante h5 {
-    font-size: 18px; }
+    font-size: 15px; }
 
 /* ----- FORMULARIO CONTACTO ----*/
 .formulario {
@@ -67,8 +67,6 @@
   background-attachment: fixed;
   display: flex;
   justify-content: center; }
-  .formulario izquierda {
-    margin-right: 20px; }
   .formulario h2 {
     font-family: 'Mukta', sans-serif;
     font-size: 15px;
@@ -85,8 +83,6 @@
     background: #0d6dfd79;
     padding: 10px 10px;
     border-radius: 15px; }
-  .formulario div iframe {
-    display: block; }
   .formulario label {
     color: white;
     width: 100%;
@@ -115,10 +111,11 @@
     color: white;
     border: 2px solid white;
     padding: 5px; }
-    .formulario #buttonbutton:hover {
+    .formulario #button button:hover {
       cursor: pointer;
       font-weight: bold; }
 
+/* GRID GALERIA PAG PRODUCTOS */
 .grid-galeria {
   width: 100%;
   margin-top: 50px;
@@ -221,12 +218,12 @@ main {
     font-family: 'Mukta', sans-serif;
     font-size: 50px;
     color: white;
-    margin: 20px; }
+    margin: 5px; }
   .oxiclub div p {
     font-family: 'Mukta', sans-serif;
     font-size: 35px;
     color: white;
-    margin: 20px; }
+    margin: 5px; }
   .oxiclub video {
     display: inline-block;
     align-items: center;
@@ -251,7 +248,7 @@ main {
     transition-duration: 3s;
     transition-delay: 0s;
     transition: 2s; }
-    .palabraExperto divdiv:hover {
+    .palabraExperto div div:hover {
       transform: scale(1.1); }
     .palabraExperto div img {
       width: 250px;
@@ -290,18 +287,18 @@ footer {
     color: white;
     text-align: center;
     z-index: 100; }
-  footer img {
-    width: 30px;
-    height: 30px;
-    margin: 10px; }
   footer div {
     display: flex;
     justify-content: center;
     transition-duration: 2s;
     transition-delay: 0s;
     transition: 1s; }
-    footer divdiv:hover {
+    footer div div:hover {
       transform: scale(1.1); }
+    footer div img {
+      width: 30px;
+      height: 30px;
+      margin: 10px; }
 
 header {
   background-color: #0d6efd;
