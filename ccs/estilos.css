@@ -79,7 +79,7 @@
     color: black;
     font-weight: bold;
     width: 480px;
-    margin: auto;
+    margin: 10px;
     background: #0d6dfd79;
     padding: 10px 10px;
     border-radius: 15px; }
@@ -111,7 +111,7 @@
     color: white;
     border: 2px solid white;
     padding: 5px; }
-    .formulario #button button:hover {
+    .formulario #button:hover {
       cursor: pointer;
       font-weight: bold; }
 
@@ -248,7 +248,7 @@ main {
     transition-duration: 3s;
     transition-delay: 0s;
     transition: 2s; }
-    .palabraExperto div div:hover {
+    .palabraExperto div:hover {
       transform: scale(1.1); }
     .palabraExperto div img {
       width: 250px;
@@ -298,7 +298,7 @@ footer {
       height: 30px;
       margin: 10px; }
       footer .iconos img:hover {
-        transform: scale(1.1); }
+        transform: scale(1.2); }
 
 header {
   background-color: #0d6efd;
