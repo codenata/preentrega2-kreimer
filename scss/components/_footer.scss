@@ -15,19 +15,19 @@ footer{
         z-index: 100;
     }
 
-    div{
+    .iconos{
         display: flex;
         justify-content:center;
-        transition-duration: 2s;
-        transition-delay: 0s;
-        transition: 1s;
-        & div:hover{
-            transform: scale(1.1);
-        }
         img{
-            width: 30px;
+            transition-duration: 2s;
+            transition-delay: 0s;
+            transition: 1s;
+                width: 30px;
             height: 30px;
             margin: 10px;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
     }
 }

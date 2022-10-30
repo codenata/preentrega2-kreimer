@@ -287,18 +287,18 @@ footer {
     color: white;
     text-align: center;
     z-index: 100; }
-  footer div {
+  footer .iconos {
     display: flex;
-    justify-content: center;
-    transition-duration: 2s;
-    transition-delay: 0s;
-    transition: 1s; }
-    footer div div:hover {
-      transform: scale(1.1); }
-    footer div img {
+    justify-content: center; }
+    footer .iconos img {
+      transition-duration: 2s;
+      transition-delay: 0s;
+      transition: 1s;
       width: 30px;
       height: 30px;
       margin: 10px; }
+      footer .iconos img:hover {
+        transform: scale(1.1); }
 
 header {
   background-color: #0d6efd;
