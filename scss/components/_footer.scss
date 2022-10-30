@@ -2,7 +2,7 @@
 @import "../base/variables";
 
 footer{
-    background-color:  $color-azul-fuerte;
+    background-color: nth($azules, 3);
     margin-top: 20px;
     padding: 20px 0 5px 0;
     width: 100%;
