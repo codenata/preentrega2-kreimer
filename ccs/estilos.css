@@ -372,5 +372,5 @@ header {
     margin: 10px 0 10px 0; } }
 
 @media screen and (max-width: 400px) {
-  form {
+  .formulario form {
     width: 80%; } }
