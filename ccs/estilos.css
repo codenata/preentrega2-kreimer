@@ -360,7 +360,7 @@ header {
   .flotante {
     display: none; } }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .grid-galeria {
     grid-template-columns: 1fr; }
   .grid-item {
@@ -369,8 +369,6 @@ header {
   header {
     flex-direction: column; }
   header nav {
-    margin: 10px 0 10px 0; } }
-
-@media screen and (max-width: 400px) {
+    margin: 10px 0 10px 0; }
   .formulario form {
-    width: 80%; } }
+    width: 95%; } }

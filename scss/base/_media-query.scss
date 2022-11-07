@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 480px){
     .grid-galeria{
         grid-template-columns: 1fr;
     }
@@ -36,11 +36,7 @@
     header nav{
         margin: 10px 0 10px 0;
     }
-}
-
-
-@media screen and (max-width: 400px){
     .formulario form{
-        width: 80%;
+        width: 95%;
     }
 }
