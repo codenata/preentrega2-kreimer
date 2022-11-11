@@ -192,7 +192,12 @@ main {
     box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75);
-    border-radius: 15px; }
+    border-radius: 15px;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition: 2s; }
+    .hero div a:hover {
+      transform: scale(1.1); }
 
 /* ----- PAGINA EL-OXICLUB ----*/
 .oxiclub {
